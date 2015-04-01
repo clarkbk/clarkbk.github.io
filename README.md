@@ -20,9 +20,9 @@
 ### Design
 
 - [ ] image-centric homepage with full-bleed background photograph
-  - [death valley](https://plus.google.com/u/0/photos/101356415299525876294/albums/6116686821726898465/6116686920684171762)
-  - istanbul
-  - maldives
+  - [death valley](https://plus.google.com/u/0/photos/101356415299525876294/albums/6116686821726898465/6116686920684171762) (?)
+  - istanbul (?)
+  - maldives (?)
 - [ ] social icon set
   - enfuzed.com/90-free-flat-social-media-icons/ (?)
   - picons.me/download-social.php (?)
@@ -31,3 +31,8 @@
 ### Content
 
 - [ ] transfer bio/blurbs from old site
+
+### SEO
+
+- [ ] add robots.txt
+- [ ] other stuff (?)
