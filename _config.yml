@@ -11,18 +11,18 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Derp
-tagline:             'Tagline.'
-description:         'Description description description description goes here.'
+title:               CLARKBK
+tagline:             'The personal website of Ben Clark.'
+description:         "Ben Clark is a guy living in New York City and doing marketing work at <a href='https://seatgeek.com/' target='_blank'>SeatGeek</a>. He's originally from Atlanta, went to school at Vanderbilt, and used to work at <a href='http://www.yelp.com/nyc' target='_blank'>Yelp</a>, <a href='https://www.clover.com/' target='_blank'>Clover</a>, <a href='http://www.exacttarget.com/products/social-media-marketing/buddy-media' target='_blank'>Buddy Media</a>, and <a href='http://www.salesforce.com/' target='_blank'>Salesforce.com</a>."
 url:                 http://clarkbk.github.io
 baseurl:             /
 paginate:            5
+
+github:
+  repo:              https://github.com/clarkbk/clarkbk.github.io
 
 # About/contact
 author:
   name:              Ben Clark
   url:               https://twitter.com/clarkbk
   email:             benjamin.k.clark@gmail.com
-
-# Custom vars
-version:             1.0.0
