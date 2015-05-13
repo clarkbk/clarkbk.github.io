@@ -15,8 +15,10 @@ title:               CLARKBK
 tagline:             'The personal website of Ben Clark.'
 description:         "Ben Clark is a guy living in New York City and doing marketing work at <a href='https://seatgeek.com/' target='_blank'>SeatGeek</a>. He's originally from Atlanta, went to school at Vanderbilt, and used to work at <a href='http://www.yelp.com/nyc' target='_blank'>Yelp</a>, <a href='https://www.clover.com/' target='_blank'>Clover</a>, <a href='http://www.exacttarget.com/products/social-media-marketing/buddy-media' target='_blank'>Buddy Media</a>, and <a href='http://www.salesforce.com/' target='_blank'>Salesforce.com</a>."
 url:                 http://clarkbk.github.io
-baseurl:             /
+baseurl:             /home
 paginate:            5
+sass:
+  style:             compressed
 
 github:
   repo:              https://github.com/clarkbk/clarkbk.github.io
