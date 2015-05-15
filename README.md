@@ -12,6 +12,7 @@
 -  set up custom domain name
   - [ ] commit `CNAME` record to GH repo
   - [ ] set up `A` records on namecheap
+- [ ] configure cloudflare for CDN'y stuff(?)
 
 ### Content
 
