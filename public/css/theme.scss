@@ -129,11 +129,11 @@ a {
 .intro {
   display: table;
   width: 100%;
-  height: auto;
+  height: 100%;
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/home-bg.jpg) no-repeat top center scroll;
+  background: url(../img/home-tall.jpg) no-repeat top center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -150,7 +150,7 @@ a {
     }
   }
   @media (min-width:768px) {
-    height: 100%;
+    background-image: url(../img/home-wide.jpg);
     padding: 0;
     .intro-body {
       .brand-heading {
