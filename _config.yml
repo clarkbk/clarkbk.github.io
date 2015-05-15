@@ -1,30 +1,28 @@
 # Dependencies
-markdown:            redcarpet
-highlighter:         pygments
 gems:
   - jekyll-sitemap
-
-# Permalinks
-permalink:           pretty
-relative_permalinks: true
+highlighter:         pygments
+markdown:            redcarpet
 
 # Setup
-title:               clarkbk.com
-tagline:             Ben Clark's website
-description:         "Ben Clark lives in New York City and does marketing work at SeatGeek. He's originally from Atlanta, went to school at Vanderbilt, and used to work at Yelp, Clover, Buddy Media, and Salesforce.com."
-url:                 http://clarkbk.com
 baseurl:             ''
-sass:
-  style:             compressed
+description:         "Ben Clark lives in New York City and does marketing work at SeatGeek. He's originally from Atlanta, went to school at Vanderbilt, and used to work at Yelp, Clover, Buddy Media, and Salesforce.com."
 github:
   repo:              https://github.com/clarkbk/clarkbk.github.io
+permalink:           pretty
+relative_permalinks: true
+sass:
+  style:             compressed
+tagline:             Ben Clark's website
+title:               clarkbk.com
+url:                 http://clarkbk.com
 
-# About/contact
+# About
 author:
-  name:              Ben Clark
   email:             benjamin.k.clark@gmail.com
+  name:              Ben Clark
   social_urls:
     facebook:        https://www.facebook.com/clarkbk
-    twitter:         https://twitter.com/clarkbk
-    linkedin:        https://www.linkedin.com/in/clarkbk
     github:          https://github.com/clarkbk
+    linkedin:        https://www.linkedin.com/in/clarkbk
+    twitter:         https://twitter.com/clarkbk
