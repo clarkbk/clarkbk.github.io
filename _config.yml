@@ -7,8 +7,6 @@ markdown:            redcarpet
 # Setup
 baseurl:             ''
 description:         "Ben Clark lives in New York City and does marketing work at SeatGeek. He's originally from Atlanta, went to school at Vanderbilt, and used to work at Yelp, Clover, Buddy Media, and Salesforce.com."
-github:
-  repo:              https://github.com/clarkbk/clarkbk.github.io
 permalink:           pretty
 relative_permalinks: true
 sass:
