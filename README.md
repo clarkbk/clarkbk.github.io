@@ -1,38 +1,18 @@
 ## Uses
 
 * [Jekyll](https://github.com/jekyll/jekyll)
-* [Poole](https://github.com/poole/poole)
-* [Lanyon](https://github.com/poole/lanyon)
-
-## Great reference
-
-* [Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)
+* [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) theme from [Startup Bootstrap](http://startbootstrap.com/)
 
 ## To do
 
 ### Domain name
 
-- [ ] why is redirecting to old site (clarkbk.com)?
-- [ ] transfer domain name registration to namecheap (or something)
+- [ ] transfer domain name registration to namecheap
 - [ ] stop 1and1 hosting
-- [ ] use custom domain name (clarkbk.com) for this page (clarkbk.github.io)
-
-### Design
-
-- [ ] image-centric homepage with full-bleed background photograph
-  - [death valley](https://plus.google.com/u/0/photos/101356415299525876294/albums/6116686821726898465/6116686920684171762) (?)
-  - istanbul (?)
-  - maldives (?)
-- [ ] social icon set
-  - enfuzed.com/90-free-flat-social-media-icons/ (?)
-  - picons.me/download-social.php (?)
-  - fontfabric.com/social-media-icons-pack/ (?)
+-  set up custom domain name
+  - [ ] commit `CNAME` record to GH repo
+  - [ ] set up `A` records on namecheap
 
 ### Content
 
-- [ ] transfer bio/blurbs from old site
-
-### SEO
-
-- [ ] add robots.txt
-- [ ] other stuff (?)
+- [ ] transfer bio/blurbs from old site to `/about`
