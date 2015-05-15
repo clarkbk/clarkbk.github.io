@@ -17,3 +17,4 @@
 ### Content
 
 - [ ] transfer bio/blurbs from old site to `/about`
+- [ ] make a 144x144 apple touch icon
