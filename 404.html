@@ -1,10 +1,19 @@
 ---
-layout: home
-title: "404: Page not found"
-permalink: 404.html
+layout: base
+title: 404
+h1_text: 404
+p_text: Oops. There's no page here. Go <a href="$SITE_URL">home</a>?
 ---
 
-<div class="page">
-  <h1 class="page-title">404: Page not found</h1>
-  <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ site.baseurl }}">Head back home</a> to try finding it again.</p>
-</div>
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1 class="brand-heading">{{ page.h1_text }}</h1>
+          <p class="intro-text">{{ page.p_text | replace: '$SITE_URL', site.url }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
