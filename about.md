@@ -28,10 +28,14 @@ I narrowly missed being born in North Carolina, where most of my family lives, a
 
   var celeb_sightings = [
     'Alec Baldwin',
+    'Donald Glover',
+    'Hugh Jackman',
+    'Ice-T',
+    'James Murphy',
+    'Larry King',
+    'Nicole Kidman',
     'Olivia Wilde',
     'Robert Pattinson',
-    'Donald Glover',
-    'James Murphy',
     'Samira Wiley'
   ];
   var rand_celeb_sighting = celeb_sightings[Math.floor(Math.random() * celeb_sightings.length)];
