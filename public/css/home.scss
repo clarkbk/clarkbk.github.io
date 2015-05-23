@@ -138,10 +138,7 @@ a {
   color: white;
   background: url(../img/home-tall.jpg) no-repeat top center scroll;
   background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  @include background-cover;
   .intro-body {
     display: table-cell;
     vertical-align: middle;
