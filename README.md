@@ -7,14 +7,11 @@
 
 ### Domain name
 
-- [ ] transfer domain name registration to namecheap
-- [ ] stop 1and1 hosting
--  set up custom domain name
-  - [ ] commit `CNAME` record to GH repo
-  - [ ] set up `A` records on namecheap
-- [ ] configure cloudflare for CDN'y stuff(?)
+- [ ] stop paying 1and1 for hosting
 
 ### Content
 
-- [ ] transfer bio/blurbs from old site to `/about`
-- [ ] make a 144x144 apple touch icon
+- [ ] make resume available for download at static url `/resume`
+- [ ] photo gallery on `/about`
+- [ ] use celo 2014 photo for header image of "page" layout
+- [ ] make a 144x144 apple touch icon/better favicon
