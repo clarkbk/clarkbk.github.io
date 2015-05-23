@@ -11,16 +11,16 @@ celebrity_sightings:
 
 ## Life
 
-I narrowly missed being born in North Carolina, where most of my family lives, and instead grew up in Atlanta with a sister named [Rachel](https://www.facebook.com/profile.php?id=2717269). After a lifetime as an overprivileged and under-aware prep star at Pace Academy, I went to Vanderbilt University, where I did Economics, Chinese, Frisbee, and other general shenanigans. For a semester, I lived in Beijing. After school, I moved to New York to take my first job at Yelp. Later I moved to Phoenix, still with Yelp. Then back to NYC for a new job and with my girlfriend [Janice](https://www.facebook.com/janice.bacuetes) (*juh-neece*), with whom I now reside contently in South Williamsburg, on the East River.
+I narrowly missed being born in North Carolina, where most of my family lives, and instead grew up in Atlanta with a sister named [Rachel](https://www.facebook.com/profile.php?id=2717269). After a lifetime as an overprivileged and under-aware prep star at Pace Academy, I went to Vanderbilt University, where I did Economics, Chinese, Frisbee, and other general shenanigans. For a semester, I lived in Beijing. After school, I moved to New York to take my first job at Yelp. Later I moved to Phoenix, still with Yelp. Then back to NYC for a new job and with my girlfriend [Janice](https://www.facebook.com/janice.bacuetes) (*juh-neece*), with whom I now reside contentedly in South Williamsburg, on the East River.
 
 **Fun facts:**
 
 * never owned an iPhone
 * lives in Brooklyn, rides a fixed gear bicycle, and so what
-* used to speak pretty good Mandarin Chinese
-* proficient with banjos and some other things
-* have been to Disneyland (twice), not Disneyworld
 * can't understand why anyone likes baseball
+* used to speak pretty good Mandarin Chinese
+* have been to Disneyland (twice), not Disneyworld
+* proficient with banjos and some other things
 * had a college radio show and played [this song](https://www.youtube.com/watch?v=U55hXetSKSQ) weirdly often
 * random celebrity sighting: <span id="celeb_sighting">Alec Baldwin</span>
 
@@ -73,4 +73,4 @@ Here are some things that I used to make this website:
 * [GitHub](https://github.com/clarkbk/clarkbk.github.io) for version control, and easy deployment to…
 * [GitHub Pages](https://pages.github.com/) for simple, free web hosting
 * [Jekyll](https://github.com/jekyll/jekyll) for easy templating and markdown things
-* [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) theme from [Start Bootstrap](http://startbootstrap.com/) for helping me to "visually express my personal brand"
+* [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) and [Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/) themes from [Start Bootstrap](http://startbootstrap.com/) for "visually enhancing my personal brand"
