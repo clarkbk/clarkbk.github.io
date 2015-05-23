@@ -23,7 +23,7 @@ $(document).ready(function () {
 });
 
 // Navigation Scripts to Show Header on Scroll-Up
-jQuery(document).ready(function($) {
+$(document).ready(function() {
     var MQL = 1170;
 
     //primary navigation slide-in effect
@@ -50,4 +50,52 @@ jQuery(document).ready(function($) {
                 this.previousTop = currentTop;
             });
     }
+});
+
+// dumb celebrity sighting thing
+var celeb_sightings = [
+  'Alec Baldwin',
+  'Donald Glover',
+  'Hugh Jackman',
+  'Ice-T',
+  'James Murphy',
+  'Larry King',
+  'Nicole Kidman',
+  'Olivia Wilde',
+  'Robert Pattinson',
+  'Samira Wiley'
+];
+$(document).ready(function() {
+  function randCeleb() {
+    var celeb_sightings = [
+      'Alec Baldwin',
+      'Donald Glover',
+      'Hugh Jackman',
+      'Ice-T',
+      'James Murphy',
+      'Larry King',
+      'Nicole Kidman',
+      'Olivia Wilde',
+      'Robert Pattinson',
+      'Samira Wiley'
+    ];
+    return celeb_sightings[Math.floor(Math.random() * celeb_sightings.length)];
+  };
+
+  function replaceCeleb() {
+    span = $("#celeb_sighting");
+    celeb = randCeleb();
+    oldCeleb = span.html();
+    if (celeb == oldCeleb) {
+      return;
+    }
+    duration = 500;
+    span.fadeOut(duration, function() {
+      span.html(celeb);
+      span.fadeIn(duration);
+    });
+  };
+
+  replaceCeleb();
+  var derp = setInterval(replaceCeleb, 5000);
 });
