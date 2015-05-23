@@ -1,11 +1,12 @@
 <!-- Navigation -->
 <nav class="navbar navbar-custom navbar-fixed-bottom" role="navigation">
   <div class="container">
+    {% if page.style == 'home' %}
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
         <i class="fa fa-bars"></i>
       </button>
-      <a class="navbar-brand" href="#">About</a>
+      <a class="navbar-brand" href="{{ site.base_url }}/about">About</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,5 +18,13 @@
         <li><a href="{{ site.author.social_urls.github }}"><i class="fa fa-github-square"></i><span class="light"> Github</span></a></li>
       </ul>
     </div>
+    {% else %}
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand" href="/">Home</a>
+    </div>
+    {% endif %}
   </div>
 </nav>

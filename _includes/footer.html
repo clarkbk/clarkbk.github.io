@@ -1,3 +1,47 @@
+{% if page.style != 'home' %}
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="{{ site.author.social_urls.facebook }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-facebook fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ site.author.social_urls.twitter }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-twitter fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ site.author.social_urls.linkedin }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-linkedin fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ site.author.social_urls.github }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-github fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+{% endif %}
+
 <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
