@@ -62,7 +62,7 @@ a {
 
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid fade(white, 30%);
+  border-bottom: 1px solid transparentize(white, 0.7);
   text-transform: uppercase;
   @include sans-serif;
   /* font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif; */
@@ -92,7 +92,7 @@ a {
         -moz-transition: background .3s ease-in-out;
         transition: background .3s ease-in-out;
         &:hover {
-          color: fade(white, 80%);
+          color: transparentize(white, 0.2);
           outline: none;
           background-color: transparent;
         }
@@ -105,7 +105,7 @@ a {
       &.active {
         outline: none;
         a {
-          background-color: fade(white, 30%);
+          background-color: transparentize(white, 0.7);
           &:hover {
             color: white;
           }
@@ -124,7 +124,7 @@ a {
     &.top-nav-collapse {
       padding: 0;
       background: black;
-      border-bottom: 1px solid fade(white, 30%);
+      border-bottom: 1px solid transparentize(white, 0.7);
     }
   }
 }
@@ -166,13 +166,13 @@ a {
 ::-moz-selection {
   text-shadow: none;
   background: #fcfcfc;
-  background: fade(white, 20%);
+  background: transparentize(white, 0.8);
 }
 
 ::selection {
   text-shadow: none;
   background: #fcfcfc;
-  background: fade(white, 20%);
+  background: transparentize(white, 0.8);
 }
 
 img::selection {
@@ -184,5 +184,5 @@ img::-moz-selection {
 }
 
 body {
-  -webkit-tap-highlight-color: fade(white, 20%);
+  -webkit-tap-highlight-color: transparentize(white, 0.8);
 }
