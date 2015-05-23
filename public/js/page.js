@@ -1,6 +1,6 @@
 // Tooltip Init
 $(function() {
-    $("[data-toggle='tooltip']").tooltip();
+  $("[data-toggle='tooltip']").tooltip();
 });
 
 // make all images responsive
@@ -24,32 +24,32 @@ $(document).ready(function () {
 
 // Navigation Scripts to Show Header on Scroll-Up
 $(document).ready(function() {
-    var MQL = 1170;
+  var MQL = 1170;
 
-    //primary navigation slide-in effect
-    if ($(window).width() > MQL) {
-        var headerHeight = $('.navbar-custom').height();
-        $(window).on('scroll', {
-                previousTop: 0
-            },
-            function() {
-                var currentTop = $(window).scrollTop();
-                //check if user is scrolling up
-                if (currentTop < this.previousTop) {
-                    //if scrolling up...
-                    if (currentTop > 0 && $('.navbar-custom').hasClass('is-fixed')) {
-                        $('.navbar-custom').addClass('is-visible');
-                    } else {
-                        $('.navbar-custom').removeClass('is-visible is-fixed');
-                    }
-                } else {
-                    //if scrolling down...
-                    $('.navbar-custom').removeClass('is-visible');
-                    if (currentTop > headerHeight && !$('.navbar-custom').hasClass('is-fixed')) $('.navbar-custom').addClass('is-fixed');
-                }
-                this.previousTop = currentTop;
-            });
-    }
+  //primary navigation slide-in effect
+  if ($(window).width() > MQL) {
+    var headerHeight = $('.navbar-custom').height();
+    $(window).on('scroll', {
+        previousTop: 0
+      },
+      function() {
+        var currentTop = $(window).scrollTop();
+        //check if user is scrolling up
+        if (currentTop < this.previousTop) {
+        //if scrolling up...
+          if (currentTop > 0 && $('.navbar-custom').hasClass('is-fixed')) {
+          $('.navbar-custom').addClass('is-visible');
+        } else {
+          $('.navbar-custom').removeClass('is-visible is-fixed');
+        }
+      } else {
+        //if scrolling down...
+        $('.navbar-custom').removeClass('is-visible');
+        if (currentTop > headerHeight && !$('.navbar-custom').hasClass('is-fixed')) $('.navbar-custom').addClass('is-fixed');
+      }
+      this.previousTop = currentTop;
+      });
+  }
 });
 
 // dumb celebrity sighting thing
@@ -84,16 +84,16 @@ $(document).ready(function() {
 
   function replaceCeleb() {
     span = $("#celeb_sighting");
-    celeb = randCeleb();
-    oldCeleb = span.html();
-    if (celeb == oldCeleb) {
-      return;
-    }
-    duration = 500;
-    span.fadeOut(duration, function() {
-      span.html(celeb);
-      span.fadeIn(duration);
-    });
+  celeb = randCeleb();
+  oldCeleb = span.html();
+  if (celeb == oldCeleb) {
+    return;
+  }
+  duration = 500;
+  span.fadeOut(duration, function() {
+    span.html(celeb);
+    span.fadeIn(duration);
+  });
   };
 
   replaceCeleb();
