@@ -1,30 +1,72 @@
 ---
+title: Hi, I'm Ben Clark
 layout: page
-title: About
+style: page
+celebrity_sightings:
+- Alec Baldwin
+- Olivia Wilde
+- Robert Pattinson
+- Donald Glover
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+## Life
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I narrowly missed being born in North Carolina, where most of my family lives, and instead grew up in Atlanta with a sister named [Rachel](https://www.facebook.com/profile.php?id=2717269). After a lifetime as an overprivileged and under-aware prep star at Pace Academy, I went to Vanderbilt University, where I did Economics, Chinese, Frisbee, and other general shenanigans. For a semester, I lived in Beijing. After school, I moved to New York to take my first job at Yelp. Later I moved to Phoenix, still with Yelp. Then back to NYC for a new job and with my girlfriend [Janice](https://www.facebook.com/janice.bacuetes) (*juh-neece*), with whom I now reside contently in South Williamsburg, on the East River.
 
-There are currently two themes built on Poole:
+**Fun facts:**
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+* never owned an iPhone
+* lives in Brooklyn, rides a fixed gear bicycle, and so what
+* used to speak pretty good Mandarin Chinese
+* proficient with banjos and some other things
+* have been to Disneyland (twice), not Disneyworld
+* can't understand why anyone likes baseball
+* had a college radio show and played [this song](https://www.youtube.com/watch?v=U55hXetSKSQ) weirdly often
+* random celebrity sighting: <span id="celeb_sighting">Alec Baldwin</span>
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+<script type="text/javascript">
 
-## Setup
+  var celeb_sightings = [
+    'Alec Baldwin',
+    'Olivia Wilde',
+    'Robert Pattinson',
+    'Donald Glover',
+    'James Murphy',
+    'Samira Wiley'
+  ];
+  var rand_celeb_sighting = celeb_sightings[Math.floor(Math.random() * celeb_sightings.length)];
+  document.getElementById("celeb_sighting").innerHTML = rand_celeb_sighting;
 
-Some fun facts about the setup of this project include:
+</script>
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+## Work
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+I've worked at:
 
-Thanks for reading!
+* [SeatGeek](https://seatgeek.com/), as Director of Customer Acquisition
+* [Buddy Media](http://www.exacttarget.com/products/social-media-marketing/buddy-media) (now part of the Salesforce Marketing Cloud), as a Business Intelligence Analyst
+* [Clover](https://www.clover.com/), as a Sales Operations Manager
+* [Yelp](http://www.yelp.com/nyc), as a CRM Administrator
+
+These jobs didn't make my [résumé (pdf)]() or my [LinkedIn profile](https://www.linkedin.com/in/clarkbk), but I have also at various times earned a living as:
+
+* a dog walker
+* a grocery bagger
+* a Methodist wedding acolyte
+
+## Pictures and Links
+
+Maybe I will put a photo gallery here!
+
+In the meantime, I put my photos mostly [on Google+](https://plus.google.com/photos/101356415299525876294/albums), of all places.
+
+## This Site
+
+Here are some things that I used to make this website:
+
+* [Namecheap](https://www.namecheap.com) for domain registration
+* [CloudFlare](https://www.cloudflare.com) for fast, free DNS
+* [GitHub](https://github.com/clarkbk/clarkbk.github.io) for version control, and easy deployment to…
+* [GitHub Pages](https://pages.github.com/) for simple, free web hosting
+* [Jekyll](https://github.com/jekyll/jekyll) for easy templating and markdown things
+* [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) theme from [Start Bootstrap](http://startbootstrap.com/) for helping me to "visually express my personal brand"
