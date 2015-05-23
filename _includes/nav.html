@@ -1,7 +1,7 @@
 <!-- Navigation -->
+{% if page.style == 'home' %}
 <nav class="navbar navbar-custom navbar-fixed-bottom" role="navigation">
   <div class="container">
-    {% if page.style == 'home' %}
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
         <i class="fa fa-bars"></i>
@@ -18,13 +18,16 @@
         <li><a href="{{ site.author.social_urls.github }}"><i class="fa fa-github-square"></i><span class="light"> Github</span></a></li>
       </ul>
     </div>
-    {% else %}
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-        <i class="fa fa-bars"></i>
-      </button>
-      <a class="navbar-brand" href="/">Home</a>
-    </div>
-    {% endif %}
   </div>
 </nav>
+
+{% else %}
+<nav class="navbar navbar-custom" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">Home</a>
+    </div>
+  </div>
+</nav>
+
+{% endif %}
