@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /404/
 
-Sitemap: http://clarkbk.github.io/sitemap.xml
+Sitemap: http://clarkbk.com/sitemap.xml
