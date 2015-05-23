@@ -2,11 +2,6 @@
 title: Hi, I'm Ben Clark
 layout: page
 style: page
-celebrity_sightings:
-- Alec Baldwin
-- Olivia Wilde
-- Robert Pattinson
-- Donald Glover
 ---
 
 ## Life
