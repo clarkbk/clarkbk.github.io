@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/public/css/blueimp-gallery.min.css">
+
+<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+  <div class="slides"></div>
+  <a class="prev">‹</a>
+  <a class="next">›</a>
+  <a class="play-pause"></a>
+  <ol class="indicator"></ol>
+</div>
+
+<div id="links" style="display: none">
+  {% for i in (1..24) %}
+  <a href="/public/img/carousel/{{ i }}.jpg"></a>
+  {% endfor %}
+</div>
+
+<script src="/public/js/blueimp-gallery.min.js"></script>
+
+<script>
+  blueimp.Gallery(
+    document.getElementById('links').getElementsByTagName('a'),
+    {
+      container: '#blueimp-gallery-carousel',
+      carousel: true
+    }
+  );
+</script>

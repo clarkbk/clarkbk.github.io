@@ -36,11 +36,11 @@ And although these jobs didn't make my [résumé (pdf)]() or my [LinkedIn profil
 * a grocery bagger
 * a Methodist wedding acolyte
 
-## Pictures and Links
+## Pictures
 
-Maybe I will put a photo gallery here!
+Sometimes I go place and take photos. When that happens, I usually put the photos [on Google+](https://plus.google.com/photos/101356415299525876294/albums), of all places. Here's a taste:
 
-In the meantime, I put my photos mostly [on Google+](https://plus.google.com/photos/101356415299525876294/albums), of all places.
+{% include gallery.html %}
 
 ## This Site
 
