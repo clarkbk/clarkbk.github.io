@@ -44,11 +44,11 @@ Sometimes I go place and take photos. When that happens, I usually put the photo
 
 ## This Site
 
-Here are some things that I used to make this website:
+I made this website. You can fork it, star it, or just plain poke around it [on GitHub](https://github.com/clarkbk/clarkbk.github.io). Here are some of the things that I used:
 
 * [Namecheap](https://www.namecheap.com) for domain registration
 * [CloudFlare](https://www.cloudflare.com) for fast, free DNS
-* [GitHub](https://github.com/clarkbk/clarkbk.github.io) for version control, and easy deployment to…
 * [GitHub Pages](https://pages.github.com/) for simple, free web hosting
 * [Jekyll](https://github.com/jekyll/jekyll) for easy templating and markdown things
 * [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) and [Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/) themes from [Start Bootstrap](http://startbootstrap.com/) for "visually enhancing my personal brand"
+* [Blueimp Gallery](https://github.com/blueimp/Gallery) for the slideshow up there
