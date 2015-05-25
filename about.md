@@ -30,7 +30,7 @@ In reverse order, I've worked at:
 * [Clover](https://www.clover.com/), as a Sales Operations Manager
 * [Yelp](http://www.yelp.com/nyc), as a CRM Administrator
 
-And although these jobs didn't make my [résumé (pdf)]() or my [LinkedIn profile](https://www.linkedin.com/in/clarkbk), I have also at various times earned a living as:
+And although these jobs didn't make my [résumé (pdf)](http://files.clarkbk.com/resume.pdf) or my [LinkedIn profile](https://www.linkedin.com/in/clarkbk), I have also at various times earned a living as:
 
 * a dog walker
 * a grocery bagger
