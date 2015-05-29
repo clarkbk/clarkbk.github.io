@@ -6,7 +6,7 @@ markdown:            redcarpet
 
 # Setup
 baseurl:             ''
-description:         "Ben Clark lives in New York City and does marketing work at SeatGeek. He's originally from Atlanta, went to school at Vanderbilt, and used to work at Yelp, Clover, Buddy Media, and Salesforce.com."
+description:         "Ben Clark lives in Brooklyn and does marketing at SeatGeek. He's originally from Atlanta, went to school at Vanderbilt, and used to work at Yelp, Clover, Buddy Media, &amp; Salesforce.com."
 permalink:           pretty
 relative_permalinks: true
 sass:
