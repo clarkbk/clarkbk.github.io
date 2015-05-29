@@ -38,7 +38,7 @@ And although these jobs didn't make my [résumé (pdf)](http://files.clarkbk.com
 
 ## Pictures
 
-Sometimes I go place and take photos. When that happens, I usually put the photos [on Google+](https://plus.google.com/photos/101356415299525876294/albums), of all places. Here's a taste:
+Sometimes I go places and take photos. When that happens, I usually put the photos [on Google+](https://plus.google.com/photos/101356415299525876294/albums), of all places. Here's a taste:
 
 {% include gallery.html %}
 
