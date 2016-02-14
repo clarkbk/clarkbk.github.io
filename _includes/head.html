@@ -39,6 +39,20 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "familyName": "Clark",
+      "givenName": "Ben",
+      "image": "https://s3.amazonaws.com/files.clarkbk.com/ben-clark.jpg",
+      "url": "https://clarkbk.com",
+      "sameAs": [
+        {% for url in site.author.social_urls %}{{ url[1] }},
+        {% endfor %}]
+    }
+  </script>
+
   <!-- Google Analytics -->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
