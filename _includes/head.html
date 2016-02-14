@@ -48,7 +48,7 @@
       "image": "https://s3.amazonaws.com/files.clarkbk.com/ben-clark.jpg",
       "url": "https://clarkbk.com",
       "sameAs": [
-        {% for url in site.author.social_urls %}{{ url[1] }},
+        {% for url in site.author.social_urls %}"{{ url[1] }}",
         {% endfor %}]
     }
   </script>
