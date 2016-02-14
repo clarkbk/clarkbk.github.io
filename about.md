@@ -1,6 +1,6 @@
 ---
 title: Ben Clark - About
-h1: Hi, I'm Ben Clark
+h1: Hi, I'm Ben
 layout: page
 style: page
 ---
