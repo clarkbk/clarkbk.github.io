@@ -1,8 +1,6 @@
 # Dependencies
 gems:
   - jekyll-sitemap
-highlighter:         pygments
-markdown:            redcarpet
 
 # Setup
 baseurl:             ''
