@@ -12,11 +12,12 @@ tagline:             Ben Clark's website
 title:               clarkbk.com
 url:                 https://clarkbk.com
 
-# About
+# Author
 author:
-  email:             benjamin.k.clark@gmail.com
   name:              Ben Clark
-  social_urls:
+  email:             benjamin.k.clark@gmail.com
+  image:             http://files.clarkbk.com/ben-clark.jpg
+  profiles:
     aboutme:         https://about.me/clarkbk
     dribbble:        https://dribbble.com/clarkbk
     facebook:        https://www.facebook.com/clarkbk
@@ -33,3 +34,7 @@ author:
     vimeo:           https://vimeo.com/clarkbk
     yelp:            http://www.yelp.com/user_details?userid=t5k635ad-wAAFUHclNlCXA
     youtube:         https://www.youtube.com/channel/UCY3OA2N-TYF-YG3FbRjKhYQ
+
+# Analytics
+analytics:
+  ga_tracking_id:    UA-24800500-1
