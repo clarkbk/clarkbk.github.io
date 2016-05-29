@@ -5,18 +5,18 @@
 #
 # Generated May 29, 2016
 #
-# This configuration file is custom generated for clarkbk.com
+# This configuration file is custom generated for clarkbk.com_1
 #
 # For full documentation of agent configuration options, please refer to
 # https://docs.newrelic.com/docs/agents/ruby-agent/installation-configuration/ruby-agent-configuration
 
 common: &default_settings
   # Required license key associated with your New Relic account.
-  license_key: 600fcb2f56f97d6e5d8d5d6846a8df38ae77decc
+  license_key: 9748a19811818ab26d1dec88b60ee94941ae6fa6
 
   # Your application name. Renaming here affects where data displays in New
   # Relic.  For more details, see https://docs.newrelic.com/docs/apm/new-relic-apm/maintenance/renaming-applications
-  app_name: clarkbk.com
+  app_name: clarkbk.github.io
 
   # To disable the agent regardless of other settings, uncomment the following:
   # agent_enabled: false
@@ -30,7 +30,7 @@ common: &default_settings
 # If your application has other named environments, configure them here.
 development:
   <<: *default_settings
-  app_name: clarkbk.com (Development)
+  app_name: clarkbk.github.io (Development)
 
   # NOTE: There is substantial overhead when running in developer mode.
   # Do not use for production or load testing.
@@ -43,7 +43,7 @@ test:
 
 staging:
   <<: *default_settings
-  app_name: clarkbk.com (Staging)
+  app_name: clarkbk.github.io (Staging)
 
 production:
   <<: *default_settings
