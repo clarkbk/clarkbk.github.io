@@ -68,7 +68,7 @@ var celeb_sightings = [
 $(document).ready(function() {
   function randCeleb() {
     return celeb_sightings[Math.floor(Math.random() * celeb_sightings.length)];
-  };
+  }
 
   function replaceCeleb() {
     span = $("#celeb_sighting");
@@ -82,7 +82,7 @@ $(document).ready(function() {
     span.html(celeb);
     span.fadeIn(duration);
   });
-  };
+  }
 
   replaceCeleb();
   var derp = setInterval(replaceCeleb, 5000);
