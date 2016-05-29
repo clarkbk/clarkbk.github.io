@@ -1,6 +1,7 @@
 # Dependencies
 gems:
   - jekyll-sitemap
+  - newrelic_rpm
 
 # Setup
 baseurl:             ''
